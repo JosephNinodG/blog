@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
+import WorldForge from './pages/WorldForge';
 import './App.css';
 
 
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/worldforge" element={<WorldForge />} />
         </Routes>
      </>
   );

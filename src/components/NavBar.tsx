@@ -7,6 +7,7 @@ const NavBar: React.FC = () => (
     <nav>
         <NavBarContent pagename='Home' link='/'></NavBarContent>
         <NavBarContent pagename='Blog' link='/blog'></NavBarContent>
+        <NavBarContent pagename='World Forge' link='/worldforge'></NavBarContent>
     </nav>
   </div>
 );
