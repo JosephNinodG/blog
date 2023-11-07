@@ -15,3 +15,23 @@
   text-align: center;
 }
 
+.navlink { 
+  color: #fff; 
+  text-decoration: none; 
+  padding: 10px; 
+  font-size: 1.4rem; 
+} 
+
+/* Changing the color */
+.navlink:hover { 
+  color: red; 
+}
+
+.navbar-content-block:hover {
+  color: red;
+}
+
+.navbar {
+  background-color: black;
+  padding-bottom: 10px;
+}

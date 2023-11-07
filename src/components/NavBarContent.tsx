@@ -8,7 +8,7 @@ interface NavBarContentProps {
 
 const NavBarContent: React.FC<NavBarContentProps> = ({ pagename, link }) => (
   <div className="navbar-content-block">
-    <Link to={link}>{pagename}</Link>
+    <Link className='navlink' to={link}>{pagename}</Link>
   </div>
 );
 
